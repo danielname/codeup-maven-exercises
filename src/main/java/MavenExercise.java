@@ -11,6 +11,8 @@ public class MavenExercise {
             System.out.printf("%s is a number!%n",userInput);
         } else {
             System.out.printf("%s is not a number!%n",userInput);
+            System.out.printf("Flipped case: %s%n",StringUtils.swapCase(userInput));
+            System.out.printf("Reversed: %s%n",StringUtils.reverse(userInput));
         }
     }
 }
